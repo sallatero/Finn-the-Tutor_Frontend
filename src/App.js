@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 //import MenuComponent from './src/components/MenuComponent'
 import Footer from './components/Footer'
+import StartPage from './components/StartPage'
 import { initializeQuestions } from './reducers/questionsReducer'
 import { connect } from 'react-redux'
 //import { initializeUser } from './src/reducers/loggedUserReducer'
@@ -17,6 +18,7 @@ const App = (props) => {
 
   return (
     <Router>
+      <StartPage />
       <Footer />
     </Router>
   )

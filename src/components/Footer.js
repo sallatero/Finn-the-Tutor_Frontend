@@ -1,5 +1,5 @@
 import React from 'react'
-//import { Container, Segment } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 
 const Footer = (props) => {
 
@@ -12,8 +12,11 @@ const Footer = (props) => {
   }
 
   return (
-    <div>
-      Hello!
+    <div style={style2}>
+      <Container>
+        <div style={style}>Finn the Tutor - Your helper to practice Finnish! by <em>Salla Tero-Anandamurthy</em>
+        </div>
+      </Container>
     </div>
   )
 }

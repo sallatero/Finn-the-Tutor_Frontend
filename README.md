@@ -1,3 +1,7 @@
+Finn the Tutor is an online study partner for foreigners to learn Finnish.
+It is still in planning phase so no code actually yet. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
